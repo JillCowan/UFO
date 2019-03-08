@@ -1,0 +1,43 @@
+body {
+  background-color: rgb(31, 31, 51);
+  color: white;
+}
+
+.jumbotron {
+  margin: 20px;
+  background-image: url("../images/nasa.jpg");;
+  background-size: cover;
+  color: white;
+  text-align: center;
+  color: rgb(238, 132, 34);
+}
+
+.form-control {
+  display: inline-block;
+  width: 140px;
+  font-weight: bolder;
+}
+
+.table {
+  table-layout: fixed;
+  background-color: white;
+  color:rgb(31, 31, 51);
+  border-style: solid;
+  border-color: rgb(238, 132, 34);
+  border-width: 10px; 
+}
+.table thead tr th tbody { 
+  border-style: solid;
+  border-color: rgb(139, 141, 140);
+  border-width:3px;
+}
+.bottom {
+  color: rgb(238, 132, 34);
+}
+html,
+body {
+  height: 100%;
+  padding: 0;
+  margin: 0;
+}
+
